@@ -9,6 +9,15 @@ public class P3 {
         for(int i = starting; i <= ending; i += increment){
             System.out.println(i*1.82);
         }
+        int i= starting;
+        while(i<=ending){
+            System.out.println(i*1.82);
+            i+=increment;
+        }
+        do { 
+            System.out.println(i*1.82);
+            i+=increment;
+        } while (i<=ending);
         scanner.close();
     }
 }
